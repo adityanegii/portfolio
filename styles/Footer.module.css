@@ -1,29 +1,34 @@
 .footer {
-    position: absolute;
+    position: relative;
     display: flex;
     flex: 1;
     padding:2rem 0rem;
     justify-content: center;
     align-items: center;
     width: 100% ;
-    background-image: radial-gradient(#CCC, rgba(255, 0, 0, 0)), radial-gradient(#CCC, rgba(255, 0, 0, 0));
-    background-size: 100% 2px;
-    background-position: 0 0, 100% 0;
-    background-repeat:	no-repeat;
   }
   
   .footer a {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-grow: 1;
+    color:rgb(255, 255, 255);
   }
 
 .container{
     bottom: 0px;
-    position: absolute;
+    position: fixed;
     width: 90%;
-    right: 5%;
     left: 5%;
-    padding:2rem 0rem;
+    right: 5%;
+}
+
+.body {
+  position: relative;
+  display: flex;
+  background-image: linear-gradient(to right, #111, rgb(253, 253, 253) 50%, #111);
+  background-size: inherit;
+  background-repeat: no-repeat;
+  height: 2px;
+  margin: auto;
 }
