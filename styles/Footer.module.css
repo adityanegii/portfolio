@@ -1,0 +1,29 @@
+.footer {
+    position: absolute;
+    display: flex;
+    flex: 1;
+    padding:2rem 0rem;
+    justify-content: center;
+    align-items: center;
+    width: 100% ;
+    background-image: radial-gradient(#CCC, rgba(255, 0, 0, 0)), radial-gradient(#CCC, rgba(255, 0, 0, 0));
+    background-size: 100% 2px;
+    background-position: 0 0, 100% 0;
+    background-repeat:	no-repeat;
+  }
+  
+  .footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+.container{
+    bottom: 0px;
+    position: absolute;
+    width: 90%;
+    right: 5%;
+    left: 5%;
+    padding:2rem 0rem;
+}
