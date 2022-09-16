@@ -1,0 +1,36 @@
+.container{
+    position : absolute;
+    height: auto;
+    width: 100%;
+    display: flex;
+    top: 2vh;;
+}
+
+.container h1{
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    font-size: max(2em, 4vw);
+    margin-top: 0px;
+}
+ 
+.navbar_menu{
+    position: relative;
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_menu a{
+    display: flex;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    flex: 1.5;
+    font-size: max(0.75em, 1.25vw);
+}
+.navbar_menu a:hover{
+    text-decoration: underline;
+}

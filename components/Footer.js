@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className={styles.container}>
         <div className={styles.body}></div>
-        <div className =  {styles.footer}>
+        <div className={styles.footer} style = {{color: "white"}}>
             <a>aditya.negi@mail.mcgill.ca</a>
             <a>Aditya Negi</a>
             <a>438-926-7075</a>
