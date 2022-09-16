@@ -3,9 +3,11 @@ import styles from '../styles/HomePage.module.css'
 export default function HomePage() {
   return (
     <div className={styles.container}>
-       <h1>Hey, I'm Aditya Negi</h1> 
-       <p>I'm a software engineering student at McGill University</p>
-       <p>hi</p>
+       <a style = {{fontSize: "3em"}}>Hey, I'm </a>
+       <span>Aditya Negi</span> 
+       <br/>
+       <a>I'm a software engineering student at McGill University</a>
+       <h1>I suck because I failed to get Damso billets</h1>
     </div>
   )
 }

@@ -15,9 +15,8 @@ function MyApp({ Component, pageProps }) {
       <main>
         
         <NavBar />
-        <div>
-          <HomePage />
-        </div>
+        <HomePage />
+
         <Footer />
       </main>
     </div>
