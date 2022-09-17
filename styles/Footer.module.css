@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     width: 100% ;
+    overflow: hidden;
   }
   
   .footer a {
@@ -13,14 +14,16 @@
     justify-content: center;
     flex-grow: 1;
     color:rgb(255, 255, 255);
+    font-size: 17px;
   }
 
 .container{
     bottom: 0px;
-    position: fixed;
+    position: relative;
     width: 90%;
     left: 5%;
     right: 5%;
+    overflow: hidden;
 }
 
 .body {
