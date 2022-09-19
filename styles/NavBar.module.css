@@ -3,7 +3,7 @@
     height: auto;
     width: 100%;
     display: flex;
-    background: #3d2100;
+    background: #3db8b8;
 }
 
 .container a{
@@ -13,6 +13,7 @@
     justify-content: center;
     font-size: max(4rem, 4vw);
     margin-bottom: 1%;
+    font-weight: 800;
 }
  
 .menu{
