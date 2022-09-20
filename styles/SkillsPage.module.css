@@ -1,0 +1,21 @@
+.container{
+    position: relative;
+    width: 100vw;
+    /* height: max(calc(100vh - max(2rem, 2vw) - 2mm), auto); */
+    display: flex;
+    top: calc(2% + max(4rem, 4vw))
+}
+
+.container div{
+    margin-top: 20vh;
+    margin-left: 15vw;
+}
+.container span{
+    font-weight: 800;
+    font-size: max(3em, 10vh);
+}
+
+.container a{
+    font-weight: 500;
+    font-size: max(1.25rem, 2.5vh)
+}

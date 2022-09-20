@@ -2,3 +2,39 @@
     position: absolute;
     display: block;
   }
+
+  .flipcard_container{
+    position: relative;
+    width: 250px;
+    height: 320px;
+  }
+
+  .flipcard_card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.75s ease;
+  }
+
+  .flipcard_card:hover{
+    transform: rotateY(180deg)
+  }
+
+  .flipcard_front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #ffc728;
+    color: #333;
+  }
+  .flipcard_back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #fafafa;
+    color: #333;
+    transform: rotateY(180deg)
+  }

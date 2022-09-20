@@ -22,7 +22,10 @@ a {
     color-scheme: dark;
   }
   body {
-    color: rgb(255, 234, 208);
-    background: #050f0f;
+    /* color: rgb(255, 234, 208); */
+    color: #E1DDBF;
+    /* background: #050f0f; */
+    /* background: #04253A; */
+    background: #021927;
   }
 }

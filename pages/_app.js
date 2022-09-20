@@ -5,6 +5,7 @@ import NavBar from '../components/assets/NavBar'
 import Footer from '../components/assets/Footer'
 import HomePage from '../components/pages/HomePage'
 import CurvedTop from '../components/assets/CurvedTop'
+import FlipCard from '../components/assets/FlipCard'
 
 function MyApp({ Component, pageProps }) {
   return(
