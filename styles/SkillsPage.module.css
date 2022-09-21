@@ -1,21 +1,58 @@
 .container{
     position: relative;
-    width: 100vw;
-    /* height: max(calc(100vh - max(2rem, 2vw) - 2mm), auto); */
     display: flex;
-    top: calc(2% + max(4rem, 4vw))
 }
 
 .container div{
-    margin-top: 20vh;
-    margin-left: 15vw;
-}
-.container span{
-    font-weight: 800;
-    font-size: max(3em, 10vh);
+    margin: auto;
 }
 
 .container a{
     font-weight: 500;
-    font-size: max(1.25rem, 2.5vh)
+    font-size:  2.5vh
 }
+
+.container table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.container td{
+    text-align: center;
+    padding: 2.5vh;
+    font-size: 1.25vw;
+  }
+
+  .container th{
+    text-align: center;
+    padding: 2.5vh;
+    font-size: 2.5vw;
+  }
+
+  .container i{
+    font-size: 5vw;
+  }
+  .umple{
+    height: 5vw;
+    width: 5vw;
+  }
+
+  .pygame{
+    height: 5vw;
+    width: 17.87vw; 
+  }
+
+  .column {
+    flex: 50%;
+    padding: 10px;
+    height: inherit;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-color: antiquewhite;
+  }
+
+  .row {
+    display: flex;
+  }

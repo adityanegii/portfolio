@@ -1,15 +1,17 @@
 import React from 'react'
 import styles from '../../styles/NavBar.module.css'
+import Link from 'next/link';
 
 export default function NavBar() {
   return (
     <div className={styles.container}>
-      <a>AN</a>
+      <Link href="/">AN</Link>
       <div className={styles.menu}>
-        <a>Home</a>
-        <a>Experience</a>
-        <a>Skills</a>
-        <a>Projects</a>
+        <Link href="/">Home</Link>
+        <Link href="/Experience">Experience</Link>
+        <Link href="/Skills">Skills</Link>
+        <Link href="/Projects">Projects</Link> 
+        <Link href="/ContactMe">Contact Me</Link> 
       </div>
     </div>
   )

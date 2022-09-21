@@ -1,0 +1,16 @@
+.container {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow-y: auto;
+  } 
+  
+  .principal {
+      margin: 0;
+      min-width: auto;
+      min-height: 100%;
+      position: relative;
+      padding-bottom: calc(5rem + 17px + 2px);
+      box-sizing: inherit;
+  }
+  

@@ -12,9 +12,10 @@
     margin-left: 5%;
     display: flex;
     justify-content: center;
-    font-size: max(4rem, 4vw);
+    font-size: max(2rem, 4vw);
     margin-bottom: 1%;
     font-weight: 800;
+    text-decoration: none;
 }
  
 .menu{
@@ -32,6 +33,7 @@
     justify-content: center;
     flex: 1.5;
     font-size: max(0.75rem, 1.25vw);
+    text-decoration: none;
 }
 
 .menu a:hover{

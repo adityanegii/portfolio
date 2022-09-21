@@ -1,17 +1,48 @@
-.container {
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  overflow-y: auto;
-} 
+.container{
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  top: calc(2% + max(4rem, 4vw));
+}
 
-.principal {
-    margin: 0;
-    min-width: auto;
-    min-height: 100%;
-    position: relative;
-    padding-bottom: calc(2rem + 17px + 2px);
-    box-sizing: inherit;
+.container div{
+  margin-top: 20vh;
+  margin-left: 15vw;
+}
+.container span{
+  font-weight: 800;
+  font-size: max(2.25em, 10vh);
+}
+
+.container a{
+  font-weight: 500;
+  font-size: max(0.75rem, 2.5vh)
+}
+
+.github{
+  position:absolute;
+  right:20%;
+  top: 35%;
+  width: max(50px, 5vh);
+  height: max(50px, 5vh);
+}
+
+
+.github img{
+    width: inherit;
+    height: inherit;
+}
+
+.linkdin{
+  position:absolute;
+  right:15%;
+  top: 15%;
+  height: max(50px, 5vh);
+}
+
+.linkdin img{
+    width: inherit;
+    height: inherit;
 }
 
 @media (prefers-color-scheme: dark) {
