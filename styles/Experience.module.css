@@ -4,7 +4,7 @@
     margin-top: 15vh;
     display: flex;
     align-items: center;
-    width: 50vw;
+    width: 90vw;
     justify-content: space-between;
     height: calc(100vh - 2% - max(4rem, 4vw));
 }

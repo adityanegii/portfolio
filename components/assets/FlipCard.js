@@ -8,10 +8,17 @@ export default function FlipCard({card}) {
         <div className={styles.flip_card_front}>
           <p>{card.front1}</p>
           <p>{card.front2}</p>
+          <p style={{fontWeight: "100", fontSize:"1.5vh"}}>Hover to find out more</p>
+          <img src={card.photo} />
         </div>
         <div className={styles.flip_card_back}>
-          <p>{card.back1}</p>
-          <p>{card.back2}</p>
+          <p>{card.back}</p>
+          <br/>
+          {card.link!=null &&
+              <a className={styles.link_container} href={card.link}>
+                {card.link2}
+              </a>
+          }
         </div>
       </div>
     </div>
