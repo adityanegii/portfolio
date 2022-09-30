@@ -1,8 +1,5 @@
-import MyApp  from './_app'
 import styles from '../styles/Home.module.css'
 import CurvedTop from '../components/assets/CurvedTop'
-import NavBar from '../components/assets/NavBar'
-import Footer from '../components/assets/Footer'
 
 export default function Home() {
   return (

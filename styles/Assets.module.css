@@ -44,7 +44,7 @@
 
 /* Style the back side */
 .flip_card_back {
-  background-color: #021927;
+  background-color: #03243A;
   transform: rotateY(180deg);
 }
 

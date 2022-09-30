@@ -1,5 +1,89 @@
 import styles from '../styles/SkillsPage.module.css'
 import FlipCard from '../components/assets/FlipCard';
+const languages = [
+    {
+        id: "1",
+        skill: "Python",
+        image: "devicon-python-plain-wordmark colored"
+    },
+    {
+        id: "2",
+        skill: "Java",
+        image: "devicon-java-plain-wordmark colored"
+    },
+    {
+        id: "3",
+        skill: "C",
+        image: "devicon-c-plain-wordmark colored"
+    },
+    {
+        id: "4",
+        skill: "HTML",
+        image: "devicon-html5-plain-wordmark colored"
+    },
+    {
+        id: "5",
+        skill: "CSS",
+        image: "devicon-css3-plain-wordmark colored"
+    },
+    {
+        id: "7",
+        skill: "JavaScript",
+        image: "devicon-javascript-plain colored"
+    },
+    {
+        id: "8",
+        skill: "SQLite",
+        image: "devicon-sqlite-plain-wordmark"
+    }
+]
+const tools = [
+    {
+        id: "1",
+        skill: "GitHub",
+        image: "devicon-github-original-wordmark"
+    },
+    {
+        id: "2.js",
+        skill: "React.js",
+        image: "devicon-react-original-wordmark colored"
+    },
+    {
+        id: "Next.js",
+        image: "devicon-nextjs-plain colored"
+    },
+    {
+        id: "Node.js",
+        image: "devicon-nodejs-plain-wordmark colored"
+    },
+    {
+        id: "Pandas",
+        image: "devicon-pandas-original-wordmark"
+    },
+    {
+        id: "Numpy",
+        image: "devicon-numpy-original-wordmark colored"
+    },
+    {
+        id: "Visual Studio Code",
+        image: "devicon-vscode-plain-wordmark colored"
+    },
+    {
+        id: "UML",
+        image: "umple.png",
+        type: "image"
+    },
+    {
+        id: "Jupyter",
+        image: "devicon-jupyter-plain-wordmark colored"
+    },
+    {
+        id: "Pygame",
+        image: "pygame.png",
+        type: "image"
+    }
+]
+
 const Skills = () => {
   return ( 
     <>
