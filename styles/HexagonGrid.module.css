@@ -25,8 +25,15 @@
   justify-content: center;
 }
 
+.hexagon p{
+  text-align: center;
+}
 .hexagon img{
-  width: max(100px, 7vw);
+  width: max(95px, 5vw);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 
 .hexagon::before {

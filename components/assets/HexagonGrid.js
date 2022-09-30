@@ -8,9 +8,9 @@ export default function HexagonGrid({list}) {
             {list.map((list) => (
                 <div>
                   <img src={list.image} />
-                  <a>
+                  <p>
                     {list.skill}
-                  </a>
+                  </p>
                 </div>
               ))}
           </div>
