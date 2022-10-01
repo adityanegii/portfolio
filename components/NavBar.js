@@ -8,8 +8,8 @@ export default function NavBar() {
       <Link href="/">AN</Link>
       <div className={styles.menu}>
         <Link href="/">Home</Link>
-        <Link href="/Experience">Experience</Link>
         <Link href="/Skills">Skills</Link>
+        <Link href="/Experience">Experience</Link>
         <Link href="/ContactMe">Contact Me</Link> 
       </div>
     </div>

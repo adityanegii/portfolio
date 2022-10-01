@@ -1,6 +1,7 @@
 .container{
   position: absolute;
-  width: 100vw;
+  width: 100%;
+  height: calc(100vh - calc(2% + max(4rem, 4vw)));
   display: flex;
   top: calc(2% + max(4rem, 4vw));
 }
@@ -14,17 +15,15 @@
   font-size: max(2.25em, 10vh);
 }
 
-.container a{
+.container p{
   font-weight: 500;
   font-size: max(0.75rem, 2.5vh)
 }
 
 .github{
-  position:absolute;
-  right:20%;
-  top: 35%;
-  width: max(50px, 5vh);
+  position:relative;
   height: max(50px, 5vh);
+  margin: 2%
 }
 
 
@@ -34,10 +33,9 @@
 }
 
 .linkdin{
-  position:absolute;
-  right:15%;
-  top: 15%;
+  position:relative;
   height: max(50px, 5vh);
+  margin: 2%
 }
 
 .linkdin img{

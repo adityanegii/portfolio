@@ -83,24 +83,17 @@ const tools = [
 
 const Skills = () => {
   return ( 
-    <>
-      <div className={styles.row}>
-        <div className={styles.column}>
-            <div style={{width: "504px"}}>
+    <div className={styles.container}>
+        <div className={styles.languages}>
             <HexagonGrid list={languages}/> 
-            </div>
-            <br/>
-            <a style={{fontSize:"10vh", fontWeight:"800", marginLeft:"2rem", bottom: "0"}}>LANGUAGES</a>
+            <br />
+            <a className={styles.header}>LANGUAGES</a>
         </div>
-        <div className={styles.column} style={{alignItems:"right"}}>
-            <a style={{fontSize:"10vh", fontWeight:"800", marginRight:"0rem", top: "0"}}>TECHNOLOGIES</a>
-            <br/>
-            <div style={{width: "672px"}}>
-                <HexagonGrid list={tools}/> 
-            </div>
+        <div className={styles.tech}>
+            <a className={styles.header} style={{marginLeft: "20%"}}>TOOLS</a>
+            <HexagonGrid list={tools}/> 
         </div>
-      </div>
-    </>
+    </div>
    );
 }
  

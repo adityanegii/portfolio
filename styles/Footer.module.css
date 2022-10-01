@@ -1,6 +1,6 @@
 .container{
     bottom: 0;
-    position: absolute;
+    position: relative;
     width: 90%;
     left: 5%;
     right: 5%;

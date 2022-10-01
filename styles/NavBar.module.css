@@ -4,7 +4,8 @@
     width: 100%;
     display: flex;
     /* background: #3db8b8; */
-    background: #4C837A;
+    background: #04314E;
+    box-shadow: 0 2px 4px 0 #04314E
 }
 
 .container a{

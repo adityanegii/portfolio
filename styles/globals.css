@@ -9,6 +9,12 @@ body {
   margin: 0;
 }
 
+h1{
+  font-size: 8vw;
+  background: #04314E;
+  padding-left: 5vw;
+}
+
 a {
   color: rgb(255, 234, 208);
 }
