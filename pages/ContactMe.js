@@ -36,13 +36,67 @@ const languages = [
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-plain-wordmark.svg"
   }
 ]
+const tools = [
+    {
+        id: "1",
+        skill: "GitHub",
+        image: "devicon-github-original-wordmark"
+    },
+    {
+        id: "2.js",
+        skill: "React.js",
+        image: "devicon-react-original-wordmark colored"
+    },
+    {
+        id: "Next.js",
+        image: "devicon-nextjs-plain colored"
+    },
+    {
+        id: "Node.js",
+        image: "devicon-nodejs-plain-wordmark colored"
+    },
+    {
+        id: "Pandas",
+        image: "devicon-pandas-original-wordmark"
+    },
+    {
+        id: "Numpy",
+        image: "devicon-numpy-original-wordmark colored"
+    },
+    {
+        id: "Visual Studio Code",
+        image: "devicon-vscode-plain-wordmark colored"
+    },
+    {
+        id: "UML",
+        image: "umple.png",
+        type: "image"
+    },
+    {
+        id: "Jupyter",
+        image: "devicon-jupyter-plain-wordmark colored"
+    },
+    {
+        id: "Pygame",
+        image: "pygame.png",
+        type: "image"
+    }
+]
+
 // For each div containing a hex grid, change length to (129*lengthOfArray/2)
 const ContactMe  = () => {
   return ( 
     <>
-    <div style={{width: "516px"}}>
-      <HexagonGrid list={languages}/> 
-    </div>
+        <div>
+            <div style={{width: "516px"}}>
+            <HexagonGrid list={languages}/> 
+            </div>
+            <br/>
+            <i style={{fontSize:"10vh", fontWeight:"800", marginLeft:"2rem", bottom: "0"}}>LANGUAGES</i>
+        </div>
+        <div style={{right:"0"}}>
+            <i style={{fontSize:"10vh", fontWeight:"800"}}>TOOLS AND TECHNOLOGIES</i>
+        </div>
     </>
    );
 }

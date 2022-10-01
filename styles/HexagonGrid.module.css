@@ -3,7 +3,7 @@
 }
 .main {
   display:flex;
-  --s: max(150px, 8.25vw);  /* size  */
+  --s: max(160px, 8.25vw);  /* size  */
   --m: 4px;    /* margin */
   --f: calc(var(--s) * 1.732 + 4 * var(--m) - 1px); 
 }
@@ -29,7 +29,7 @@
   text-align: center;
 }
 .hexagon img{
-  width: max(95px, 5vw);
+  width: max(95px, 4.5vw);
   display: block;
   margin-left: auto;
   margin-right: auto;
