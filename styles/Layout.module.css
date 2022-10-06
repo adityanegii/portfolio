@@ -1,7 +1,8 @@
 .container {
-    height: 90vh;
+    min-height: 100vh;
     width: 100%;
-    position: relative;
+    position: static;
+    padding-top: calc(2% + max(2rem, 4vw));
   } 
   
   .principal {

@@ -1,7 +1,7 @@
 .container{
   position: absolute;
   width: 100%;
-  height: calc(100vh - calc(2% + max(4rem, 4vw)));
+  /* height: calc(100vh - calc(2% + max(4rem, 4vw))); */
   display: flex;
   top: calc(2% + max(4rem, 4vw));
 }

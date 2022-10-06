@@ -8,8 +8,8 @@ export default function FlipCard({card}) {
         <div className={styles.flip_card_front}>
           <p>{card.front1}</p>
           <p>{card.front2}</p>
-          <p style={{fontWeight: "300", fontSize:"1.75vh"}}>{card.date}</p>
-          <p style={{fontWeight: "100", fontSize:"1.5vh"}}>Hover to find out more</p>
+          <p style={{fontWeight: "300", fontSize:"1.1rem"}}>{card.date}</p>
+          <p style={{fontWeight: "100", fontSize:"0.95rem"}}>Hover to find out more</p>
           <img src={card.photo} />
         </div>
         <div className={styles.flip_card_back}>

@@ -1,5 +1,6 @@
 import styles from '../styles/SkillsPage.module.css'
 import HexagonGrid from '../components/assets/HexagonGrid'
+import Layout from '../components/Layout'
 const languages = [
   {
       id: "1",
@@ -55,6 +56,10 @@ const tools = [
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
     },
     {
+        skill: "Express.js",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+    },
+    {
         skill: "Pandas",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg"
       
@@ -83,16 +88,21 @@ const tools = [
 
 const Skills = () => {
   return ( 
-    <div className={styles.container}>
-        <div className={styles.languages}>
-            <HexagonGrid list={languages}/> 
-            <br />
-            <a className={styles.header}>LANGUAGES</a>
-        </div>
-        <div className={styles.tech}>
-            <a className={styles.header} style={{marginLeft: "20%"}}>TOOLS</a>
-            <HexagonGrid list={tools}/> 
-        </div>
+    <div id="skills">
+        <Layout>
+            <h2>SKILLS</h2>
+            <div className={styles.container}>
+                <div className={styles.languages}>
+                    <HexagonGrid list={languages}/> 
+                    <br />
+                    <a className={styles.header}>LANGUAGES</a>
+                </div>
+                <div className={styles.tech}>
+                    <a className={styles.header} style={{marginLeft: "20%"}}>TOOLS</a>
+                    <HexagonGrid list={tools}/> 
+                </div>
+            </div>
+        </Layout>
     </div>
    );
 }

@@ -1,6 +1,6 @@
 .container{
-    bottom: 0;
-    position: relative;
+    margin-bottom: calc(17px + 2px + 4rem + 2rem);
+    position: absolute;
     width: 90%;
     left: 5%;
     right: 5%;

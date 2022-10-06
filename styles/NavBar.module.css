@@ -1,11 +1,12 @@
 .container{
-    position: sticky;
+    position: fixed;
     height: auto;
     width: 100%;
     display: flex;
     /* background: #3db8b8; */
     background: #04314E;
-    box-shadow: 0 2px 4px 0 #04314E
+    box-shadow: 0 2px 4px 0 #04314E;
+    z-index: 1000
 }
 
 .container a{
@@ -17,6 +18,7 @@
     margin-bottom: 1%;
     font-weight: 800;
     text-decoration: none;
+    cursor: pointer;
 }
  
 .menu{
@@ -39,4 +41,5 @@
 
 .menu a:hover{
     text-decoration: underline;
+    cursor: pointer;
 }

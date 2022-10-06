@@ -10,22 +10,12 @@ import Layout from '../components/Layout'
 export default function Home() {
   return (
     <div>
-      <Layout>
-        <HomePage />
-      </Layout>
-      <Layout>
-        <h1>SKILLS</h1>
-        <Skills />
-      </Layout>
-      <Layout>
-        <h1>EXPERIENCE</h1>
-        <Experience />
-      </Layout>
-      <Layout>
-        <h1>CONTACT ME</h1>
-        <ContactMe />
-      </Layout>
-        <Footer />
+      <NavBar />
+      <HomePage />
+      <Skills />
+      <Experience />
+      <ContactMe />
+      <Footer />
     </div>
   )
 }
