@@ -3,13 +3,11 @@ import Footer from '../components/Footer';
 import emailjs from 'emailjs-com'
 import Layout from '../components/Layout';
 
-const ContactMe  = ( {s, t, p} ) => {
+const ContactMe  = () => {
 
     function sendEmail(e) {
-        console.log(s)
         e.preventDefault();
-        // emailjs.sendForm('service_v7uqc8f', 'template_8niwv1a', e.target, 'kanbu4SFOglNx0zLY')
-        emailjs.sendForm(s, t, e.target, p)
+        emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, e.target, process.env.NEXT_PUBLIC_PUBLIC_KEY)
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
