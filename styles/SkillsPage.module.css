@@ -4,17 +4,53 @@
 }
 
 .languages{
-  width: 30%;
-  margin-left: 2.5vw
+  width: 40%;
+  margin-left: 10%;
 }
 
 .tech{
   width: 40%;
-  margin-left: 30%;
+  margin-left: auto;
+  margin-right: 10%;
 }
 
 .header {
-  font-size: 4vw;
+  font-size: max(2rem, min(4vh, 4vw));
   font-weight:300;
+  margin-top: 50px;
+  margin-left: 100px;
 }
 
+.title{
+  margin-bottom: 0;
+}
+
+
+
+
+.split_left {
+  height: 100vh;
+  width: 50%;
+  z-index: 1;
+  top: 100vh;
+  overflow-x: hidden;
+  padding-top: 20px;
+  left: 0;
+}
+
+.split_right {
+  height: 100vh;
+  width: 50%;
+  z-index: 1;
+  top: 100vh;
+  overflow-x: hidden;
+  padding-top: 20px;
+  right: 0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}

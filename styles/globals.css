@@ -11,14 +11,10 @@ body {
 
 h2{
   font-size: 4vw;
-  padding-left: 5vw;
   padding-top: 10px;
-  text-decoration: underline #E1DDBF 7.5px;
+  text-decoration: underline 7.5px;
 }
 
-a {
-  color: rgb(255, 234, 208);
-}
 
 * {
   box-sizing: border-box;
@@ -27,10 +23,5 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
-  }
-  body {
-    /* color: rgb(255, 234, 208); */
-    color: #E1DDBF;
-    background: #021927;
   }
 }

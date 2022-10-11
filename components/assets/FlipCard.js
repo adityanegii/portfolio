@@ -3,14 +3,16 @@ import styles from '../../styles/Assets.module.css'
 
 export default function FlipCard({card}) {
   return (
-    <div className={styles.flip_card}>
+    <div className={styles.flip_card} style={{color: "#a0d2eb"}}>
       <div className={styles.flip_card_inner}>
         <div className={styles.flip_card_front}>
           <p>{card.front1}</p>
           <p>{card.front2}</p>
           <p style={{fontWeight: "300", fontSize:"1.1rem"}}>{card.date}</p>
           <p style={{fontWeight: "100", fontSize:"0.95rem"}}>Hover to find out more</p>
+          <div className={styles.image_container}>
           <img src={card.photo} />
+          </div>
         </div>
         <div className={styles.flip_card_back}>
           <p>{card.back}</p>

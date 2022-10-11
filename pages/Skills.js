@@ -40,47 +40,58 @@ const languages = [
 ]
 const tools = [
     {
+        id: "1",
         skill: "GitHub",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
     },
     {
+        id: "2",
         skill: "React.js",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
     },
     {
+        id: "3",
         skill: "Next.js",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
     },
     {
+        id: "4",
         skill: "Node.js",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
     },
     {
+        id: "5",
         skill: "Express.js",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
     },
     {
+        id: "6",
         skill: "Pandas",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg"
       
     },
     {
+        id: "7",
         skill: "Numpy",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
     },
     {
+        id: "8",
         skill: "Visual Studio Code",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
     },
     {
+        id: "9",
         skill: "UML",
         image: "umple.png",
     },
     {
+        id: "10",
         skill: "Jupyter",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg"
     },
     {
+        id: "12",
         skill: "Pygame",
         image: "pygame.png",
     }
@@ -88,17 +99,17 @@ const tools = [
 
 const Skills = () => {
   return ( 
-    <div id="skills">
+    <div id="skills" style={{background:"#E4EAF5", color:"#3e4251"}}>
         <Layout>
-            <h2>SKILLS</h2>
+            <h2 className={styles.title} style={{textAlign:"center", marginBottom:"4vh"}}>SKILLS</h2>
             <div className={styles.container}>
                 <div className={styles.languages}>
                     <HexagonGrid list={languages}/> 
-                    <br />
-                    <a className={styles.header}>LANGUAGES</a>
+                    <br/>
+                    <h3 className={styles.header}>LANGUAGES</h3>
                 </div>
                 <div className={styles.tech}>
-                    <a className={styles.header} style={{marginLeft: "20%"}}>TOOLS</a>
+                    <h3 className={styles.header} style={{marginLeft: "25%"}}>TOOLS</h3>
                     <HexagonGrid list={tools}/> 
                 </div>
             </div>
@@ -108,3 +119,4 @@ const Skills = () => {
 }
  
 export default Skills;
+

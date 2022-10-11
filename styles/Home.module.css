@@ -43,15 +43,12 @@
     height: inherit;
 }
 
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
-  }
+.filler{
+  font-size: max(2rem, max(4vw, 4vh));
+  width: 100%;
+  font-weight: 800;
+  background: #04314e;
+  position: absolute;
+  color: transparent
 }
+

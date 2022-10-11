@@ -26,7 +26,7 @@ const cards = [
       back: "This is a project I made for one of my CEGEP classes. It is a simple checkers game where a user can play against an AI. It utilizes the pygame library to make the GUI for the game and the minimax algorithm is used to program the AI.",
       link: "https://github.com/adityanegii/checkers-game",
       link2: "Link to project",
-      photo: "checkers3.jpg"
+      photo: "checkers.png"
     },
     {
       id: "4",
@@ -41,9 +41,9 @@ const cards = [
 
 const Experience = () => {
     return ( 
-      <div id="experience">
+      <div id="experience" style={{background:"#595E73", color: "#a0d2eb"}}>
         <Layout>
-          <h2>EXPERIENCE</h2>
+          <h2 style={{textAlign:"center"}}>EXPERIENCE</h2>
           <div className={styles.container}>
               {cards.map((card) => (
               <FlipCard key={card.id} card={card} />

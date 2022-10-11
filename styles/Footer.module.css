@@ -1,9 +1,9 @@
 .container{
-    margin-bottom: calc(17px + 2px + 4rem + 2rem);
-    position: absolute;
+    position: relative;
     width: 90%;
     left: 5%;
     right: 5%;
+    bottom: 0;
 }
 .footer {
     position: relative;
@@ -22,12 +22,13 @@
     flex-grow: 1;
     font-size: 17px;
     width: 33%;
+    color: #03243a
   }
 
 .body {
   position: relative;
   display: flex;
-  background-image: linear-gradient(to right, rgb(10, 30, 31), rgb(255, 234, 208) 50%, rgb(10, 30, 31));
+  background-image: linear-gradient(to right, #E4EAF5, #03243a 50%, #E4EAF5);
   background-size: inherit;
   background-repeat: no-repeat;
   height: 2px;
