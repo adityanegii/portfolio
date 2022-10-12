@@ -1,9 +1,16 @@
+.wrapper{
+  width: auto;
+}
+
+.child {
+  width: auto;
+}
+
 .container{
   position: absolute;
   width: 100%;
-  /* height: calc(100vh - calc(2% + max(4rem, 4vw))); */
   display: flex;
-  top: calc(2% + max(4rem, 4vw));
+  top: calc(2% + max(2rem, 2vw));
 }
 
 .container div{
@@ -22,7 +29,7 @@
 
 .github{
   position:relative;
-  height: max(50px, 5vh);
+  height: max(40px, 5vh);
   margin: 2%
 }
 
@@ -34,7 +41,7 @@
 
 .linkdin{
   position:relative;
-  height: max(50px, 5vh);
+  height: max(40px, 5vh);
   margin: 2%
 }
 
@@ -52,3 +59,40 @@
   color: transparent
 }
 
+.button {
+  background-color: #03243a;
+  border: 2px solid #04314e;
+  border-radius: 30px;
+  box-shadow: #04314e 4px 4px 0 0;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button a{
+  text-decoration: none;
+  color: #e5eaf5;
+}
+
+.button:hover, .button a:hover {
+  background-color: #e5eaf5;
+  color: #03243a;
+}
+
+.button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}

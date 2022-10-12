@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react'
 import styles from '../styles/NavBar.module.css'
-// import Link from 'next/link';
 import { Link } from 'react-scroll/modules'
 
 export default function NavBar() {

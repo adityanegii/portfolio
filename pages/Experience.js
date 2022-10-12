@@ -32,6 +32,7 @@ const cards = [
       id: "4",
       front1: "SafeDrop - CHAP",
       front2: "MAIS Hackathon",
+      date: "October 2022",
       back: "This is a extension for ring doorbell to allow users to recieve their packages/deliveries and to pay for the customs, fees, tips, e.t.c. The camera detects a delivery driver and opens the interface to pay, view payments, and see the delivery man walk up to your door. This was made thorugh OpenCV and Node.js.",
       photo: "safeDrop.png",
       link2: "Link to project", 

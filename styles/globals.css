@@ -25,3 +25,7 @@ h2{
     color-scheme: dark;
   }
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

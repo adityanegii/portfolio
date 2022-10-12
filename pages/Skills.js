@@ -106,10 +106,10 @@ const Skills = () => {
                 <div className={styles.languages}>
                     <HexagonGrid list={languages}/> 
                     <br/>
-                    <h3 className={styles.header}>LANGUAGES</h3>
+                    <a className={styles.header_lang}>LANGUAGES</a>
                 </div>
                 <div className={styles.tech}>
-                    <h3 className={styles.header} style={{marginLeft: "25%"}}>TOOLS</h3>
+                    <a className={styles.header_tool} style={{marginLeft: "25%"}}>TOOLS</a>
                     <HexagonGrid list={tools}/> 
                 </div>
             </div>
