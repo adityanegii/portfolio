@@ -22,12 +22,12 @@
   justify-content: center;
 }
 
-.hexagon_front img{
-  width: max(40px, 4.5vw);
+.hexagon_front img, .hexagon_front picture{
+  width: max(40px, 4vw);
   display: block;
   margin-left: auto;
   margin-right: auto;
-  transform: translateY(40%);
+  transform: translateY(25%);
 }
 
 .hexagon_front::before {

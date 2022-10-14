@@ -11,7 +11,9 @@ export default function FlipCard({card}) {
           <p style={{fontWeight: "300", fontSize:"1.1rem"}}>{card.date}</p>
           <p style={{fontWeight: "100", fontSize:"0.95rem"}}>Hover to find out more</p>
           <div className={styles.image_container}>
-          <img src={card.photo} />
+          <picture>
+            <img src={card.photo} alt="Italian Trulli" />
+          </picture>
           </div>
         </div>
         <div className={styles.flip_card_back}>

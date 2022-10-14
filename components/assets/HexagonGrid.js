@@ -7,7 +7,9 @@ export default function HexagonGrid({list}) {
           <div className={styles.hexagon_front}>
             {list.map((list) => (
                 <div key={list.id}>
-                  <img src={list.image} />
+                  <picture> 
+                    <img src={list.image} alt="Italian Trulli"/>
+                  </picture>
                 </div>
               ))}
           </div>

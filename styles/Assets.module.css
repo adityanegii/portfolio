@@ -89,7 +89,7 @@
   display: flex;
 }
 
-.flip_card img{
+.flip_card img, .flip_card picture{
   width:80%;
   margin-top: auto;
   margin-bottom: auto;

@@ -34,7 +34,7 @@
 }
 
 
-.github img{
+.github img, .github picture{
     width: inherit;
     height: inherit;
 }
@@ -45,7 +45,7 @@
   margin: 2%
 }
 
-.linkdin img{
+.linkdin img, .linkdin picture{
     width: inherit;
     height: inherit;
 }
