@@ -15,14 +15,16 @@
 }
 
 .header_lang {
-  font-size: max(2rem, min(5vh, 5vw));
+  font-size: max(1rem, min(5vh, 5vw));
   font-weight:300;
-  left: 17.5%;
-  position: absolute;
-  margin-top: 0.75%;
+  position:absolute;
+  bottom: 7vh;
+  padding-top: 10px;
+  margin-left: 2vw;
 }
+
 .header_tool {
-  font-size: max(2rem, min(5vh, 5vw));
+  font-size: max(1rem, min(5vh, 5vw));
   font-weight:300;
   margin-left: 15%;
 }
