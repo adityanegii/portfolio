@@ -8,7 +8,7 @@ export default function NavBar() {
   const [experience, setExperience] = useState(false);
   const [contact, setContact] = useState(false);
   const changeBackground = () => {
-    if (window.scrollY >= window.innerHeight*3) {
+    if (window.scrollY >= document.body.scrollHeight - window.innerHeight) {
       setSkills(false);
       setExperience(false);
       setContact(true);
