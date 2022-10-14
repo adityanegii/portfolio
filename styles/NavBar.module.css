@@ -1,21 +1,34 @@
+.navbar{
+    color:#e5eaf5;
+}
+
+.navbar_skills{
+    color: #3e4251;
+}
+
+.navbar_exp{
+    color: #a0d2eb;
+}
+
+.navbar_cm{
+    color: #03243a;
+}
+
 .container{
     position: fixed;
     height: auto;
     width: 100%;
     display: flex;
-    /* background: #3db8b8; */
-    background: #04314E;
-    box-shadow: 0 2px 4px 0 #04314E;
+    /* background: #F76C6C; */
+    background-color: transparent;
     z-index: 1000
 }
 
 .container a{
-    margin-top: 1%;
     margin-left: 5%;
     display: flex;
     justify-content: center;
-    font-size: max(2rem, 4vw);
-    margin-bottom: 1%;
+    font-size: max(2rem, max(4vw, 4vh));
     font-weight: 800;
     text-decoration: none;
     cursor: pointer;
@@ -35,7 +48,7 @@
     display: flex;
     justify-content: center;
     flex: 1.5;
-    font-size: max(0.75rem, 1.25vw);
+    font-size: max(0.75rem, max(1.25vw, 1.25vh));
     text-decoration: none;
 }
 
