@@ -33,7 +33,7 @@ const ContactMe  = () => {
                         <button type="submit">Submit</button>
                     </form>
                 </div>
-            <Footer />
+                <Footer />
             </Layout>
             <Popup trigger={buttonPopup} setTrigger={setButtonPopup} />
         </div>
