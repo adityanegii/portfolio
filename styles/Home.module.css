@@ -73,6 +73,8 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  color: #e5eaf5;
+  font-family: 'K2D', sans-serif;
 }
 
 .button a{
