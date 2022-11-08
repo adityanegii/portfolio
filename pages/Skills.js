@@ -34,8 +34,13 @@ const languages = [
   },
   {
       id: "8",
-      skill: "SQLite",
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-plain-wordmark.svg"
+      skill: "PostgreSQL",
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg"
+  },
+  {
+      id: "9",
+      skill: "Vim",
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-plain.svg"
   }
 ]
 const tools = [
@@ -94,6 +99,16 @@ const tools = [
         id: "12",
         skill: "Pygame",
         image: "pygame.png",
+    },
+    {
+        id: "13",
+        skill: "MaterialUi",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+    },
+    {
+        id: "14",
+        skill: "SpringBoot",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg",
     }
 ]
 

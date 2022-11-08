@@ -20,6 +20,16 @@ const cards = [
       photo: "mcgill.png"
     },
     {
+      id: "5",
+      front1: "GleanEazy",
+      front2: "Code to Give (Morgan Stanley)",
+      date: "November 2022",
+      back: "The goal of the project is to design a web application that will faciliate the management of gleaning events across Canada. The application will host services for producers, volunteers, gleaning groups, and food bank organizations. This project was made with Java, SpringBoot, and Next.js.",
+      photo: "GleanEasy.png",
+      link2: "Link to project", 
+      link: "https://github.com/GianlucaP106/MS-CODE-TO-GIVE-APP"
+    },
+    {
       id: "3", 
       front1: "Checkers Game",
       date: "2021",
@@ -38,6 +48,7 @@ const cards = [
       link2: "Link to project", 
       link: "https://devpost.com/software/safedrop?ref_content=user-portfolio&ref_feature=in_progress"
     }
+    
   ];
 
 const Experience = () => {
