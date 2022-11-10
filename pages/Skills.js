@@ -39,8 +39,8 @@ const languages = [
   },
   {
       id: "9",
-      skill: "Vim",
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-plain.svg"
+      skill: "Bash",
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"
   }
 ]
 const tools = [
@@ -109,6 +109,11 @@ const tools = [
         id: "14",
         skill: "SpringBoot",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg",
+    },
+    {
+        id: "15",
+        skill: "Vim",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-plain.svg"
     }
 ]
 
