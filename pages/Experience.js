@@ -8,7 +8,7 @@ const cards = [
       front1: "Equifax Inc.",
       front2: "Junior Software Engineer",
       date: "May-August 2022",
-      back: "During this internship, I assisted in the development and the testing of the attributes for the Attribute Engine using Python. Furthermore, I designed and developed a program to transform fixed-format credit reports into CSV format to make them more accessible. During this internship, I used and learned GitHub, Python, Jupyter Notebook, Pandas, and Numpy.",
+      back: "During this internship, I assisted in the development and the testing of the attributes for the Attribute Engine. Furthermore, I Designed and developed a program that transformed Business Credit Reports into a usable format for other teams to utilize. During this internship, I used and learned GitHub, Python, Jupyter Notebook, Pandas, and Numpy.",
       photo: "eqfax1.png"
     },
     {
