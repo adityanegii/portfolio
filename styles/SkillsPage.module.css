@@ -3,6 +3,11 @@
     display: flex;
 }
 
+.skills{
+  background-color: var(--walnut-brown);
+  color: var(--black)
+}
+
 .languages{
   width: 40%;
   margin-left: 10%;
@@ -18,7 +23,6 @@
   font-size: max(1rem, min(5vh, 5vw));
   font-weight:300;
   position:absolute;
-  bottom: 7vh;
   padding-top: 10px;
   margin-left: 2vw;
 }

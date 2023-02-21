@@ -1,8 +1,11 @@
+/* Filler */
 .curved_home{
     position: absolute;
     display: block;
+    fill: var(--gray);
   }
 
+/* Flip Card */
 
   /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip_card {
@@ -94,6 +97,8 @@
   margin-top: auto;
   margin-bottom: auto;
 }
+
+/* Pop up on contact form submission */
 
 .popup{
   position: fixed;

@@ -5,7 +5,7 @@ const languages = [
   {
       id: "1",
       skill: "Python",
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain-wordmark.svg"
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
   },
   {
       id: "2",
@@ -30,7 +30,7 @@ const languages = [
   {
       id: "7",
       skill: "JavaScript",
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
   },
   {
       id: "8",
@@ -119,7 +119,7 @@ const tools = [
 
 const Skills = () => {
   return ( 
-    <div id="skills" style={{background:"#E4EAF5", color:"#3e4251"}}>
+    <div id="skills" className={styles.skills}>
         <Layout>
             <h2 className={styles.title} style={{textAlign:"center", marginBottom:"4vh"}}>SKILLS</h2>
             <div className={styles.container}>
@@ -129,7 +129,9 @@ const Skills = () => {
                     <a className={styles.header_lang}>LANGUAGES</a>
                 </div>
                 <div className={styles.tech}>
-                    <a className={styles.header_tool} style={{marginLeft: "25%"}}>TOOLS</a>
+                    <a className={styles.header_tool} style={{marginLeft: "25%"}}>LIBRARIES</a>
+                    <br></br>
+                    <a className={styles.header_tool} style={{marginLeft: "25%"}}>& FRAMEWORKS</a>
                     <HexagonGrid list={tools}/> 
                 </div>
             </div>

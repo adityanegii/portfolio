@@ -1,9 +1,9 @@
 .navbar{
-    color:#e5eaf5;
+    color: var(--black);
 }
 
 .navbar_skills{
-    color: #3e4251;
+    color: var(--black);
 }
 
 .navbar_exp{

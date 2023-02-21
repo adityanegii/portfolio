@@ -3,11 +3,9 @@ import CurvedTop from '../components/assets/CurvedTop'
 import Layout from '../components/Layout'
 export default function Home() {
   return (
-    <div id="home" style={{background:"#03243a"}}>
-      <div className={styles.filler}>gasdfasdf</div>
+    <div id="home" className={styles.home}>
       <Layout>
-        <CurvedTop />
-        <div className={styles.container} style={{color:"#e5eaf5"}}>
+        <div className={styles.container}>
           <div>
             <a style = {{fontSize: "max(6vh, 1.45rem)"}}>Hey, I&apos;m </a>
             <span>Aditya Negi</span>

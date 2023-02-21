@@ -1,9 +1,5 @@
-.wrapper{
-  width: auto;
-}
-
-.child {
-  width: auto;
+.home {
+  background-color: var(--slate-gray);
 }
 
 .container{
@@ -16,6 +12,7 @@
 .container div{
   margin-top: 20vh;
   margin-left: 15vw;
+  color: var(--black);
 }
 .container span{
   font-weight: 800;
@@ -27,12 +24,42 @@
   font-size: max(0.75rem, 2.5vh)
 }
 
+
+.button {
+  background-color: var(--beige);
+  border: 2px solid var(--walnut-brown);
+  color: var(--bistre);
+  box-shadow: var(--bistre) 4px 4px 0 0;
+  border-radius: 30px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-family: 'K2D', sans-serif;
+}
+
+.button a{
+  text-decoration: none;
+  color: var(--gray);
+}
+
+.button:hover, .button a:hover {
+  color: var(--beige);
+  background-color: var(--bistre);
+  border: 2px solid var(--walnut-brown);
+  box-shadow: var(--bistre) 4px 4px 0 0;
+}
+
 .github{
   position:relative;
   height: max(40px, 5vh);
   margin: 2%
 }
-
 
 .github img, .github picture{
     width: inherit;
@@ -48,48 +75,6 @@
 .linkdin img, .linkdin picture{
     width: inherit;
     height: inherit;
-}
-
-.filler{
-  font-size: max(2rem, max(4vw, 4vh));
-  width: 100%;
-  font-weight: 800;
-  background: #04314e;
-  position: absolute;
-  color: transparent
-}
-
-.button {
-  background-color: #03243a;
-  border: 2px solid #04314e;
-  border-radius: 30px;
-  box-shadow: #04314e 4px 4px 0 0;
-  cursor: pointer;
-  display: inline-block;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 40px;
-  text-align: center;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  color: #e5eaf5;
-  font-family: 'K2D', sans-serif;
-}
-
-.button a{
-  text-decoration: none;
-  color: #e5eaf5;
-}
-
-.button:hover, .button a:hover {
-  background-color: #e5eaf5;
-  color: #03243a;
-}
-
-.button:active {
-  box-shadow: #422800 2px 2px 0 0;
-  transform: translate(2px, 2px);
 }
 
 @media (min-width: 768px) {

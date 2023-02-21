@@ -14,18 +14,18 @@ export default function Home() {
         <title>Aditya&apos;s Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.wrapper}>
+      <div>
         <NavBar />
-        <section className={styles.child}>
+        <section>
           <HomePage />
         </section>
-        <section className={styles.child}>
+        <section>
           <Skills />
         </section>
-        <section className={styles.child}>
+        <section>
           <Experience />
         </section>
-        <section className={styles.child}>
+        <section>
           <ContactMe />
         </section>
       </div>

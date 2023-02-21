@@ -1,7 +1,23 @@
+:root {
+  --dark-blue: #1A237E;
+  --blue: #00004d;
+  --light-blue: #2196F3;
+  --gray: #E0E0E0;
+  --dark-gray: #323232;
+  --white: #FFFFFF;
+  --black: #000000;
+  --beige: #DDD0C8;
+
+  --jordy-blue: #8eb8e5ff;
+  --air-superiority-blue: #7c99b4ff;
+  --slate-gray: #6b7f82ff;
+  --walnut-brown: #5b5750ff;
+  --bistre: #492c1dff;
+}
+
 html{
   height: 100%;
   font-family: 'K2D', sans-serif;
-  color: rgb(255, 234, 208);
   box-sizing: border-box;
 }
 
@@ -15,17 +31,11 @@ h2{
   text-decoration: underline 7.5px;
 }
 
-
 * {
   box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }
 
 ::-webkit-scrollbar {
   display: none;
 }
+
