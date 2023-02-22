@@ -44,12 +44,12 @@
 
 /* Style the front side (fallback if image is missing) */
 .flip_card_front {
-  background-color: var(--air-superiority-blue);
+  background-color: var(--beige);
 }
 
 /* Style the back side */
 .flip_card_back {
-  background-color: var(--air-superiority-blue);
+  background-color: var(--beige);
   transform: rotateY(180deg);
 }
 
@@ -77,7 +77,7 @@
 
 .link_container:hover{
   background: var(--bistre);
-  color: var(--air-superiority-blue)
+  color: var(--beige)
 }
 
 .image_container{
