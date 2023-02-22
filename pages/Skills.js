@@ -91,7 +91,7 @@ const tools = [
     {
         id: "9",
         skill: "Linux",
-        image: ""
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-plain.svg"
     }
 ]
 const libs = [
@@ -131,6 +131,11 @@ const libs = [
         skill: "SpringBoot",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg",
     },
+    {
+        id: "8",
+        skill: "Express.js",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+    }
 ]
 const Skills = () => {
   return ( 
@@ -138,7 +143,7 @@ const Skills = () => {
         <Layout>
             <h2 className={styles.title}>SKILLS</h2>
             <div className={styles.container}>
-                <div className={styles.card}>
+                <div className={styles.cardLang}>
                     <h3>LANGUAGES</h3>
                     {languages.map((e) => (
                         <div key={e.id}>
@@ -147,7 +152,7 @@ const Skills = () => {
                     ))}
                 </div>
 
-                <div className={styles.card}>
+                <div className={styles.cardLibs}>
                     <h3>LIBRARIES & FRAMEWORKS</h3>
                     {libs.map((e) => (
                         <div key={e.id}>
@@ -156,7 +161,7 @@ const Skills = () => {
                     ))}
                 </div>
 
-                <div className={styles.card}>
+                <div className={styles.cardOther}>
                     <h3>OTHER TECHNOLOGIES</h3>
                     {tools.map((e) => (
                         <div key={e.id}>

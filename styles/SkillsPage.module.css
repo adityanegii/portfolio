@@ -6,6 +6,7 @@
     justify-content: space-evenly;
     width: 100%;
     margin: auto;
+    background-size: max(50px, 6vh);
 }
 
 .skills{
@@ -30,16 +31,66 @@
   font-size: 2.5rem;
 }
 
-.card{
+.cardLang, .cardLibs, .cardOther {
   width: max(325px, 20vw);
   height: max(400px, 50vh);
-  border: var(--black) 2px solid;
+  border: var(--beige) 2px solid;
   padding: 10px;
   font-size: 1.25rem;
   text-align: center;
-  box-shadow: var(--bistre) 0px 30px 60px -12px inset, var(--bistre) 0px 18px 36px -18px inset;
+  /* box-shadow: var(--walnut-brown) 0px 30px 60px -12px inset, var(--walnut-brown) 0px 18px 36px -18px inset; */
   margin: 15px;
   border-radius: 10px;
+  background-color: var(--gray-2);
+  color: var(--bistre);
+  background-size: 17%;
+}
+
+@media (min-width: 1700px) and (min-height: 956px) {
+  .container {
+    background-image: url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg)
+                      ,url(../public/pygame.png)
+                      ,url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg)
+                      ,url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg)
+                      ,url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg)
+                      ,url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg)
+                      ,url(../public/umple.png)
+                      ,url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-plain.svg)
+                      ,url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg)
+                      ,url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg)
+                      ,url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg)
+                      ,url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg)
+                      ,url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg)
+                      ,url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg)
+                      ,url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg)
+                      ,url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg)
+                      ,url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg)
+                      ,url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-plain.svg)
+                      ,url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg)
+                      ,url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain-wordmark.svg);
+    background-repeat: no-repeat;  
+    background-position:  top left 6%
+                        , top left 33%
+                        , top left 68%
+                        , top left 98%
+                        , top 24% left 1%
+                        , top 24% left 36%
+                        , top 24% left 63%
+                        , top 24% left 93%
+                        , top 48% left 7%
+                        , top 48% left 33%
+                        , top 48% left 68%
+                        , top 48% left 98%
+                        , top 72% left 2%
+                        , top 72% left 36%
+                        , top 72% left 63%
+                        , top 72% left 93%
+                        , top 96% left 5%
+                        , top 96% left 33%
+                        , top 96% left 68%
+                        , top 96% left 98%
+                        , top 99% left 5%;
+  }
 }
 
 .card h3 {
