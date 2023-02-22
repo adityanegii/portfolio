@@ -22,7 +22,7 @@ const ContactMe  = () => {
     }
 
     return ( 
-        <div className={styles.main} style={{background: "#E4EAF5"}}>
+        <div className={styles.main}>
             <Layout >
                 <div className={styles.container} id="contactMe">
                     <form className={styles.form} onSubmit={sendEmail}>

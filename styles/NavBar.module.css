@@ -7,11 +7,11 @@
 }
 
 .navbar_exp{
-    color: #a0d2eb;
+    color: var(--black);
 }
 
 .navbar_cm{
-    color: #03243a;
+    color: var(--black);
 }
 
 .container{
@@ -28,7 +28,7 @@
     margin-left: 5%;
     display: flex;
     justify-content: center;
-    font-size: max(2rem, max(4vw, 4vh));
+    font-size: max(2rem, 4vw, 4vh);
     font-weight: 800;
     text-decoration: none;
     cursor: pointer;
@@ -48,7 +48,7 @@
     display: flex;
     justify-content: center;
     flex: 1.5;
-    font-size: max(0.75rem, max(1.25vw, 1.25vh));
+    font-size: max(0.75rem, 1.25vw, 1.25vh);
     text-decoration: none;
 }
 

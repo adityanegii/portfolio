@@ -36,7 +36,6 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  border: 0.5vw solid #a0d2eb;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
   border-radius: 20px;
@@ -45,12 +44,12 @@
 
 /* Style the front side (fallback if image is missing) */
 .flip_card_front {
-  background-color: #80869D;
+  background-color: var(--air-superiority-blue);
 }
 
 /* Style the back side */
 .flip_card_back {
-  background-color: #80869D;
+  background-color: var(--air-superiority-blue);
   transform: rotateY(180deg);
 }
 
@@ -64,7 +63,6 @@
   height: 50px;
   justify-content: center;
   align-items: center;
-  border: 2px solid #a0d2eb;
   border-radius: 40px;
   text-decoration: none;
   transition: 300ms ease-in-out;
@@ -74,12 +72,12 @@
   padding-left: 10px;
   padding-right: 10px;
   margin: 10%;
-  color: #a0d2eb
+  color: var(--black)
 }
 
 .link_container:hover{
-  background: #4C837A;
-  color: #021927;
+  background: var(--bistre);
+  color: var(--air-superiority-blue)
 }
 
 .image_container{

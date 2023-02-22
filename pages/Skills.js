@@ -1,5 +1,4 @@
 import styles from '../styles/SkillsPage.module.css'
-import HexagonGrid from '../components/assets/HexagonGrid'
 import Layout from '../components/Layout'
 const languages = [
   {
@@ -34,14 +33,19 @@ const languages = [
   },
   {
       id: "8",
-      skill: "PostgreSQL",
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg"
+      skill: "Bash",
+      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"
   },
   {
       id: "9",
-      skill: "Bash",
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"
-  }
+      skill: "ARM Assembly",
+      image: ""
+  },
+  {
+      id: "10",
+      skill: "SQL",
+      image: ""
+    }
 ]
 const tools = [
     {
@@ -51,88 +55,114 @@ const tools = [
     },
     {
         id: "2",
+        skill: "Visual Studio Code",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+    },
+    {
+        id: "3",
+        skill: "UML",
+        image: "umple.png",
+    },
+    {
+        id: "4",
+        skill: "Jupyter",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg"
+    },
+    {
+        id: "5",
+        skill: "Vim",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-plain.svg"
+    },
+    {
+        id: "6",
+        skill: "PostgreSQL",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg"
+    },
+    {
+        id: "7",
+        skill: "REST Architecture",
+        image: ""
+    },
+    {
+        id: "8",
+        skill: "Database Design",
+        image: ""
+    },
+    {
+        id: "9",
+        skill: "Linux",
+        image: ""
+    }
+]
+const libs = [
+    {
+        id: "1",
         skill: "React.js",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
     },
     {
-        id: "3",
+        id: "2",
         skill: "Next.js",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
     },
     {
-        id: "4",
+        id: "3",
         skill: "Node.js",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
     },
     {
-        id: "5",
-        skill: "Express.js",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
-    },
-    {
-        id: "6",
+        id: "4",
         skill: "Pandas",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg"
       
     },
     {
-        id: "7",
+        id: "5",
         skill: "Numpy",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
     },
     {
-        id: "8",
-        skill: "Visual Studio Code",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
-    },
-    {
-        id: "9",
-        skill: "UML",
-        image: "umple.png",
-    },
-    {
-        id: "10",
-        skill: "Jupyter",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg"
-    },
-    {
-        id: "12",
+        id: "6",
         skill: "Pygame",
         image: "pygame.png",
     },
     {
-        id: "13",
-        skill: "MaterialUi",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
-    },
-    {
-        id: "14",
+        id: "7",
         skill: "SpringBoot",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg",
     },
-    {
-        id: "15",
-        skill: "Vim",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-plain.svg"
-    }
 ]
-
 const Skills = () => {
   return ( 
     <div id="skills" className={styles.skills}>
         <Layout>
-            <h2 className={styles.title} style={{textAlign:"center", marginBottom:"4vh"}}>SKILLS</h2>
+            <h2 className={styles.title}>SKILLS</h2>
             <div className={styles.container}>
-                <div className={styles.languages}>
-                    <HexagonGrid list={languages}/> 
-                    <br/>
-                    <a className={styles.header_lang}>LANGUAGES</a>
+                <div className={styles.card}>
+                    <h3>LANGUAGES</h3>
+                    {languages.map((e) => (
+                        <div key={e.id}>
+                        {e.skill}
+                        </div>
+                    ))}
                 </div>
-                <div className={styles.tech}>
-                    <a className={styles.header_tool} style={{marginLeft: "25%"}}>LIBRARIES</a>
-                    <br></br>
-                    <a className={styles.header_tool} style={{marginLeft: "25%"}}>& FRAMEWORKS</a>
-                    <HexagonGrid list={tools}/> 
+
+                <div className={styles.card}>
+                    <h3>LIBRARIES & FRAMEWORKS</h3>
+                    {libs.map((e) => (
+                        <div key={e.id}>
+                        {e.skill}
+                        </div>
+                    ))}
+                </div>
+
+                <div className={styles.card}>
+                    <h3>OTHER TECHNOLOGIES</h3>
+                    {tools.map((e) => (
+                        <div key={e.id}>
+                        {e.skill}
+                        </div>
+                    ))}
                 </div>
             </div>
         </Layout>

@@ -21,13 +21,13 @@
   flex-grow: 1;
   font-size: max(10px, 0.75vw);
   width: 33%;
-  color: #03243a
+  color: var(--black)
 }
 
 .body {
 position: relative;
 display: flex;
-background-image: linear-gradient(to right, #E4EAF5, #03243a 50%, #E4EAF5);
+background-image: linear-gradient(to right, var(--walnut-brown), var(--black) 50%, var(--walnut-brown));
 background-size: inherit;
 background-repeat: no-repeat;
 height: 2px;

@@ -1,9 +1,19 @@
+.experience {
+    background:var(--slate-gray);
+    color: var(--black);
+}
+
 .container{
     position: relative;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    width: 90vw;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    font-size: 2.5rem;
 }

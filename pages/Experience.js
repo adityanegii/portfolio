@@ -53,9 +53,9 @@ const cards = [
 
 const Experience = () => {
     return ( 
-      <div id="experience" style={{background:"#595E73", color: "#a0d2eb"}}>
+      <div id="experience" className={styles.experience}>
         <Layout>
-          <h2 style={{textAlign:"center"}}>EXPERIENCE</h2>
+          <h2 className={styles.title}>EXPERIENCE</h2>
           <div className={styles.container}>
               {cards.map((card) => (
               <FlipCard key={card.id} card={card} />
