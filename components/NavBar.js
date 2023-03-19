@@ -36,15 +36,13 @@ export default function NavBar() {
 
   return (
     <div className={contact ? styles.container_cm : experience ? styles.container_exp : skills ? styles.container_skills : styles.container_home}>
-      {/* <div className={styles.container}> */}
-        <Link to="home" spy={true} smooth={true} duration={1250}><a>AN</a></Link>
+        <Link to="home" spy={true} smooth={true} duration={1250}>AN</Link>
         <div className={styles.menu}>
           <Link to="home" spy={true} smooth={true} duration={1250}>Home</Link>
           <Link to="skills" spy={true} smooth={true} duration={1250}>Skills</Link>
           <Link to="experience" spy={true} smooth={true} duration={1250}>Experience</Link>
-          <Link to="contactMe" spy={true} smooth={true} duration={1250}>Contact Me</Link> 
-        {/* </div> */}
-      </div>
+          <Link to="contactMe" spy={true} smooth={true} duration={1250}>Contact Me</Link>
+        </div>
     </div>
   )
 }

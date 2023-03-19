@@ -46,7 +46,7 @@
   background-size: 17%;
 }
 
-@media (min-width: 1700px) and (min-height: 956px) {
+/* @media (min-width: 1700px) and (min-height: 956px) {
   .container {
     background-image: url(https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg)
                       ,url(../public/pygame.png)
@@ -91,7 +91,7 @@
                         , top 96% left 98%
                         , top 99% left 5%;
   }
-}
+} */
 
 .card h3 {
   text-align: center;

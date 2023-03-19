@@ -1,6 +1,6 @@
 import styles from '../styles/Home.module.css'
-import CurvedTop from '../components/assets/CurvedTop'
 import Layout from '../components/Layout'
+
 export default function Home() {
   return (
     <div id="home" className={styles.home}>
@@ -10,7 +10,16 @@ export default function Home() {
             <a style = {{fontSize: "max(6vh, 1.45rem)"}}>Hey, I&apos;m </a>
             <span>Aditya Negi</span>
             <p>I&apos;m a software engineering student at McGill University.</p>
-              
+            
+            {/* <nav className={styles.nav}>
+              <h4 className={styles.smHeader}>
+                Hello
+              <div className={styles.line}>
+              </div>
+              </h4>
+
+            </nav> */}
+
             <a href="https://github.com/adityanegii" target="_blank" rel="noreferrer" className={styles.github}>
               <picture>
                 <img src="Github_L.png" alt="Italian Trulli"/>

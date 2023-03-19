@@ -13,17 +13,14 @@
 
 .container_skills{
     background: var(--walnut-brown);
-    box-shadow: var(--black) 0px 7px 29px 0px;
 }
 
 .container_exp{
     background: var(--slate-gray);
-    box-shadow: var(--black) 0px 7px 29px 0px;
 }
 
 .container_cm{
     background: var(--walnut-brown);
-    box-shadow: var(--black) 0px 7px 29px 0px;
 }
 
 
