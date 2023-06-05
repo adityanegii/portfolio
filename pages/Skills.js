@@ -119,7 +119,7 @@ const tools = [
 
 const Skills = () => {
   return ( 
-    <div id="skills" style={{background:"#E4EAF5", color:"#3e4251"}}>
+    <div id="skills" style={{background:"#04314e", color:"#e5eaf5"}}>
         <Layout>
             <h2 className={styles.title} style={{textAlign:"center", marginBottom:"4vh"}}>SKILLS</h2>
             <div className={styles.container}>

@@ -13,11 +13,12 @@ const cards = [
     },
     {
       id: "2",
-      front1: "CHAP McGill",
-      front2: "Co-founder, Developper",
-      date: "2022-present",
-      back: "At CHAP, our goal is to help students gain experience in software development. We do this by creating projects and participating in hackathons.",
-      photo: "mcgill.png"
+      front1: "Match Predictor",
+      date: "2023",
+      back: "This Match Predictor is a Python-based tool that uses various classifiers and regression models to predict match results and scorelines. The models are trained on data scraped from FBREF, which provides comprehensive football statistics.",
+      photo: "soccerball.png",
+      link2: "Link to project", 
+      link: "https://github.com/adityanegii/Match-Predictor-FBREF"
     },
     {
       id: "5",
@@ -53,7 +54,7 @@ const cards = [
 
 const Experience = () => {
     return ( 
-      <div id="experience" style={{background:"#595E73", color: "#a0d2eb"}}>
+      <div id="experience" style={{background:"#03243a", color: "#e5eaf5"}}>
         <Layout>
           <h2 style={{textAlign:"center"}}>EXPERIENCE</h2>
           <div className={styles.container}>
