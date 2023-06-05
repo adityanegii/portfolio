@@ -25,7 +25,7 @@ export default function Home() {
             </a>
             <br />
             <br />
-            <a href="/Aditya_CV.pdf" download="Aditya_CV.pdf">
+            <a href="/AdityaCV.pdf" download="Aditya_CV.pdf">
               <button className={styles.button}>
                 Download my CV
               </button>
