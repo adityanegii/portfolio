@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../../styles/Assets.module.css'
+import Link from 'next/link'
 
 export default function FlipCard({card}) {
   return (
@@ -20,9 +21,9 @@ export default function FlipCard({card}) {
           <p>{card.back}</p>
           <br/>
           {card.link!=null &&
-              <a className={styles.link_container} href={card.link}>
+              <Link className={styles.link_container} href={card.link}>
                 {card.link2}
-              </a>
+              </Link>
           }
         </div>
       </div>
