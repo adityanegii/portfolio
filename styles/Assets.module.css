@@ -33,11 +33,14 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  border: 0.5vw solid #e5eaf5;
+  border: 5px solid #e5eaf5;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
   border-radius: 20px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 /* Style the front side (fallback if image is missing) */
@@ -57,26 +60,22 @@
 }
 
 .link_container{
+  background-color: transparent;
   width: 50%;
   height: 50px;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid #a0d2eb;
+  border: 2px solid greenyellow;
   border-radius: 40px;
   text-decoration: none;
   transition: 300ms ease-in-out;
   font-size: 1.3rem;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin: 10%;
-  color: #a0d2eb
+  padding: 10px;
+  color: greenyellow;
 }
 
 .link_container:hover{
   background: #4C837A;
-  color: #021927;
+  color: greenyellow;
+  cursor: pointer;
 }
 
 .image_container{

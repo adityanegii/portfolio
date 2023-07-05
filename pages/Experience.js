@@ -4,7 +4,15 @@ import styles from '../styles/Experience.module.css';
 import Layout from '../components/Layout';
 const cards = [
     {
-      id: "1",
+      id: "2",
+      front1: "THORASYS",
+      front2: "Software Developer Intern",
+      date: "July 2023-Present",
+      back: "Currently, I am actively involved in the development of a Windows service in Delphi. The purpose of this service is to facilitate the reading of data from one of THORASYS' product and analyzing it. Once the analysis is complete, the service will be able to provide the analyzed data to a 3rd party software through a TCP/IP connection. This project represents my ongoing task, and I am dedicated to its successful implementation.",
+      photo: "thorasys.jfif"
+    },
+    {
+      id: "2",
       front1: "Equifax Inc.",
       front2: "Junior Software Engineer",
       date: "May-August 2022",
@@ -12,8 +20,9 @@ const cards = [
       photo: "eqfax1.png"
     },
     {
-      id: "2",
+      id: "3",
       front1: "NHL-Guess-Who", 
+      front2: "Personal Project",
       date: "2023",
       back: "NHL based games, one is a wordle like game where the user guesses players on the information of each guess. The other game is the user has to guess the player based on the player's career path. This project was made with Next.js and using information from the NHL api.",
       photo: "nhl.png",
@@ -21,8 +30,9 @@ const cards = [
       link: "https://nhl-guess-who.vercel.app/"
     },
     {
-      id: "3",
+      id: "4",
       front1: "Match Predictor",
+      front2: "Personal Project",
       date: "2023",
       back: "This Match Predictor is a Python-based tool that uses various classifiers and regression models to predict match results and scorelines. The models are trained on data scraped from FBREF, which provides comprehensive football statistics.",
       photo: "soccerball.png",
@@ -30,7 +40,7 @@ const cards = [
       link: "https://github.com/adityanegii/Match-Predictor-FBREF"
     },
     {
-      id: "4",
+      id: "5",
       front1: "GleanEazy",
       front2: "Code to Give (Morgan Stanley)",
       date: "November 2022",
@@ -40,8 +50,9 @@ const cards = [
       link: "https://github.com/adityanegii/GleanEazy"
     },
     {
-      id: "5", 
+      id: "6", 
       front1: "Checkers Game",
+      front2: "Personal Project",
       date: "2021",
       back: "Checkers is a project I made in CEGEP. It is a simple checkers game where a user can play against an AI. It utilizes the pygame library to make the GUI for the game, and the minimax algorithm makes up the AI.",
       link: "https://github.com/adityanegii/checkers-game",
@@ -49,16 +60,16 @@ const cards = [
       photo: "checkers.png"
     },
     {
-      id: "6",
+      id: "7",
       front1: "SafeDrop - CHAP",
       front2: "MAIS Hackathon",
       date: "October 2022",
-      back: "SafeDrop is an extension for Ring doorbell to allow users to receive their packages/deliveries and to pay for customs, fees, tips, e.t.c. The camera detects a delivery driver and opens the interface to pay, view payments, and see the delivery man walk up to your door. This was made through OpenCV and Node.js.",
+      back: "SafeDrop is an extension for Ring doorbell to allow users to receive their packages/deliveries and to pay for customs, fees, tips, e.t.c. The camera detects a delivery driver and opens the interface to pay, view payments. This was made through OpenCV and Node.js.",
       photo: "safeDrop.png",
       link2: "Link to project", 
       link: "https://devpost.com/software/safedrop?ref_content=user-portfolio&ref_feature=in_progress"
     }
-    
+
   ];
 
 const Experience = () => {
