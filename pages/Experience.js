@@ -7,8 +7,8 @@ const cards = [
       id: "2",
       front1: "THORASYS",
       front2: "Software Developer Intern",
-      date: "July 2023-Present",
-      back: "Currently, I am actively involved in the development of a Windows service in Delphi. The purpose of this service is to facilitate the reading of data from one of THORASYS' product and analyzing it. Once the analysis is complete, the service will be able to provide the analyzed data to a 3rd party software through a TCP/IP connection. This project represents my ongoing task, and I am dedicated to its successful implementation.",
+      date: "July-August 2023",
+      back: "During my internship, I was actively engaged in the development of a proof of concept for a Windows service using Delphi. The primary objective of this service was to streamline the retrieval and analysis of data from one of THORASYS' products. Upon completing the analysis, the service had the capability to transmit the processed data to a third-party software via a TCP/IP connection. I am pleased to have successfully implemented it.",
       photo: "thorasys.jfif"
     },
     {
