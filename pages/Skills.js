@@ -34,11 +34,6 @@ const languages = [
   },
   {
       id: "8",
-      skill: "PostgreSQL",
-      image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg"
-  },
-  {
-      id: "9",
       skill: "Bash",
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"
   }
@@ -102,18 +97,18 @@ const tools = [
     },
     {
         id: "13",
-        skill: "MaterialUi",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
-    },
-    {
-        id: "14",
         skill: "SpringBoot",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg",
     },
     {
-        id: "15",
+        id: "14",
         skill: "Vim",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-plain.svg"
+    }, 
+    {
+        id: "15",
+        skill: "PostgreSQL",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg"
     }
 ]
 
