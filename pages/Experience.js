@@ -34,7 +34,7 @@ const cards = [
       front1: "Match Predictor",
       front2: "Personal Project",
       date: "2023",
-      back: "This Match Predictor is a Python-based tool that uses various classifiers and regression models to predict match results and scorelines. The models are trained on data scraped from FBREF, which provides comprehensive football statistics.",
+      back: "This Python-based Match Predictor employs various classifiers and regression models, trained on FBREF's comprehensive football statistics through meticulous data engineering. The Next.js web client seamlessly interfaces with a Flask backend, providing users with accessible and insightful match predictions.",
       photo: "soccerball.png",
       link2: "Link to project", 
       link: "https://github.com/adityanegii/Match-Predictor-FBREF"
