@@ -4,7 +4,7 @@ import styles from '../styles/Experience.module.css';
 import Layout from '../components/Layout';
 const cards = [
     {
-      id: "2",
+      id: "1",
       front1: "THORASYS",
       front2: "Software Developer Intern",
       date: "July-August 2023",
