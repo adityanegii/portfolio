@@ -36,13 +36,18 @@ const languages = [
       id: "8",
       skill: "Bash",
       image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"
+  },
+  {
+    id: "9",
+    skill: "TypeScript",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
   }
 ]
 const tools = [
     {
         id: "1",
-        skill: "GitHub",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
+        skill: "Git",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
     },
     {
         id: "2",
@@ -61,8 +66,8 @@ const tools = [
     },
     {
         id: "5",
-        skill: "Express.js",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+        skill: "Linux",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
     },
     {
         id: "6",
@@ -79,11 +84,6 @@ const tools = [
         id: "8",
         skill: "Visual Studio Code",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
-    },
-    {
-        id: "9",
-        skill: "UML",
-        image: "umple.png",
     },
     {
         id: "10",
@@ -109,6 +109,11 @@ const tools = [
         id: "15",
         skill: "PostgreSQL",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg"
+    },
+    {
+        id: "16",
+        skill: "sci-kit learn",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg"
     }
 ]
 

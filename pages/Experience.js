@@ -4,33 +4,32 @@ import styles from '../styles/Experience.module.css';
 import Layout from '../components/Layout';
 const cards = [
     {
-      id: "1",
-      front1: "THORASYS",
-      front2: "Software Developer Intern",
-      date: "July-August 2023",
-      back: "During my internship, I was actively engaged in the development of a proof of concept for a Windows service using Delphi. The primary objective of this service was to streamline the retrieval and analysis of data from one of THORASYS' products. Upon completing the analysis, the service had the capability to transmit the processed data to a third-party software via a TCP/IP connection.",
-      photo: "thorasys.jfif"
-    },
-    {
-      id: "2",
+      id: "9",
       front1: "Equifax Inc.",
       front2: "Junior Software Engineer",
-      date: "May-August 2022",
-      back: "During this internship, I assisted in the development and the testing of the attributes for the Attribute Engine. Furthermore, I Designed and developed a program that transformed Business Credit Reports into a usable format for other teams to utilize. During this internship, I used and learned GitHub, Python, Jupyter Notebook, Pandas, and Numpy.",
+      date: "May-August 2024",
+      back: "During this internship, I validated dashboards in Looker Studio using SQL queries to ensure data accuracy, designed and built dashboards with BigQuery to display key performance indicators, and implemented PGP encryption in Java to securely decrypt incoming files for updating consumer information.",
       photo: "eqfax1.png"
     },
     {
-      id: "3",
-      front1: "NHL-Guess-Who", 
-      front2: "Personal Project",
-      date: "2023",
-      back: "NHL based games, one is a wordle like game where the user guesses players on the information of each guess. The other game is the user has to guess the player based on the player's career path. This project was made with Next.js and using information from the NHL api.",
-      photo: "nhl.png",
-      link2: "Link to project",
-      link: "https://nhl-guess-who.vercel.app/"
+      id: "8",
+      front1: "DevPro Media",
+      front2: "Developer",
+      date: "April-July 2024",
+      back: "I enhanced front-end and back-end features for two websites using Next.js and TypeScript, developed multiple components and a full page for a CMS-based site, and added functionality to download recordings from the database for a REST API-based site.",
+      photo: "devpro.png",
     },
     {
-      id: "4",
+      id: "7",
+      front1: "THORASYS",
+      front2: "Software Developer Intern",
+      date: "July-August 2023, January-May 2024",
+      back: "During my internship, I redesigned the data persistence method for Tremoflo software so it uses in-memory JSON, optimized transmission by compressing data, and developed a PoC Windows service in Delphi to communicate with a medical device. I also designed a mechanism to transfer data for further analysis.",
+      photo: "thorasys.jfif"
+    },
+    
+    {
+      id: "6",
       front1: "Match Predictor",
       front2: "Personal Project",
       date: "2023",
@@ -41,6 +40,24 @@ const cards = [
     },
     {
       id: "5",
+      front1: "NHL-Guess-Who", 
+      front2: "Personal Project",
+      date: "2023",
+      back: "NHL based games, one is a wordle like game where the user guesses players on the information of each guess. The other game is the user has to guess the player based on the player's career path. This project was made with Next.js and using information from the NHL api.",
+      photo: "nhl.png",
+      link2: "Link to project",
+      link: "https://nhl-guess-who.vercel.app/"
+    },
+    {
+      id: "4",
+      front1: "Equifax Inc.",
+      front2: "Junior Software Engineer",
+      date: "May-August 2022",
+      back: "During this internship, I assisted in the development and the testing of the attributes for the Attribute Engine. Furthermore, I Designed and developed a program that transformed Business Credit Reports into a usable format for other teams to utilize. During this internship, I used and learned GitHub, Python, Jupyter Notebook, Pandas, and Numpy.",
+      photo: "eqfax1.png"
+    },
+    {
+      id: "3",
       front1: "GleanEazy",
       front2: "Code to Give (Morgan Stanley)",
       date: "November 2022",
@@ -50,7 +67,7 @@ const cards = [
       link: "https://github.com/adityanegii/GleanEazy"
     },
     {
-      id: "6", 
+      id: "2", 
       front1: "Checkers Game",
       front2: "Personal Project",
       date: "2021",
@@ -60,7 +77,7 @@ const cards = [
       photo: "checkers.png"
     },
     {
-      id: "7",
+      id: "1",
       front1: "SafeDrop - CHAP",
       front2: "MAIS Hackathon",
       date: "October 2022",
