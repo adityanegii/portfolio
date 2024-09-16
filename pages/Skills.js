@@ -47,7 +47,7 @@ const tools = [
     {
         id: "1",
         skill: "Git",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg"
     },
     {
         id: "2",
@@ -57,12 +57,12 @@ const tools = [
     {
         id: "3",
         skill: "Next.js",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg"
     },
     {
         id: "4",
         skill: "Node.js",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
     },
     {
         id: "5",
@@ -78,7 +78,7 @@ const tools = [
     {
         id: "7",
         skill: "Numpy",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original-wordmark.svg"
     },
     {
         id: "8",
